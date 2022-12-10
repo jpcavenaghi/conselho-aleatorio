@@ -1,0 +1,13 @@
+@media (max-width: 992px) { 
+    .card{
+        left: 31%;
+    }
+    }@media(max-width:768px){
+        .card{
+            left: 26%;
+        }
+    }@media (max-width: 576px) {
+        .card{
+            left: 16%;
+        }
+    }
