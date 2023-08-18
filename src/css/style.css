@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+.body{
+  height: 100vh;  
+  font-weight: 800;  
+}
+
+.container{   
+ display: flex;
+ justify-content: center;
+ align-items: center;   
+ height: 100vh;
+ background-color: var(--background-color);
+}
+
+.card{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px 20px 0 20px;
+    border-radius: 15px;
+    background-color: var(--advice-card-color);
+}
+
+.card .titulo,
+.card .conselho{
+    font-family: 'Manrope', sans-serif;
+}
+
+.card .titulo{
+    margin-bottom: 17px;
+    font-size: small;
+    color: var(--advice-dice-color);
+}
+
+.card .conselho{
+    font-size: 24px;
+    color: var( --text-color);
+}
+
+.divisoria{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 25px 0px 0px 0px;
+    
+}
+
+.card .riscao{
+    height:0.7px;
+    width: 100%;
+    margin: 10px;
+    background-color: var( --text-color);
+}
+
+.card .divisoria .fa-pause{
+    font-size: small;
+    color: var( --text-color);
+}
+
+.card .botao{
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%; 
+    transform: translateY(50%);
+    background-color: var(--advice-dice-color);
+    cursor: pointer;
+}
+
+.card .botao:hover{
+    background-color: black;
+    color: var(--advice-dice-color);
+    transition: 0.7s;
+}
+
+.card .botao .fa-dice-one,
+.fa-dice-two,.fa-dice-three,
+.fa-dice-four,.fa-dice-five,
+.fa-dice-six{
+    font-size: 20px;
+}

@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conselho Aleatório</title>
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/variable.css">
-    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/variable.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
 
     <!-- link font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -21,118 +21,28 @@
 
 <body>
     <main class="container">
-        <div class="conteudo">
-            <ul>
-                <li class="card escolhido">
-                    <h2 class="titulo">CONSELHO #178</h2>
 
-                    <p class="conselho">"Você é mais corajoso do que pensa, mais forte do que parece e mais esperto do
-                        que acredita."
-                    </p>
+        <section class="card">
+            <h2 class="titulo" id="ad-number">ADVICE #117</h2>
 
-                    <ul class="divisoria">
-                        <li class="riscao"></li>
-                        <li><i class="fas fa-pause"></i></li>
-                        <li class="riscao"></li>
-                    </ul>
+            <p class="conselho" id="ad-description">"It is easy to sit up and take notice,
+                what´s difficult getting up and talking action."
+            </p>
 
-                    <a href="#" rel="noopener noreferrer">
-                        <button id="btn_dado" class="botao"><i class="fas fa-dice-one"></i></button>
-                    </a>
-
-                </li>
-
-
-                <li class="card ">
-                    <h2 class="titulo">CONSELHO #256</h2>
-
-                    <p class="conselho">"Vencedores não são pessoas que nunca falham, são pessoas que nunca desistem."
-                    </p>
-
-                    <ul class="divisoria">
-                        <li class="riscao"></li>
-                        <li><i class="fas fa-pause"></i></li>
-                        <li class="riscao"></li>
-                    </ul>
-
-                    <a href="#" rel="noopener noreferrer">
-                        <button class="botao"><i class="fas fa-dice-two"></i></button>
-                    </a>
-                </li>
-
-                <li class="card">
-                    <h2 class="titulo">CONSELHO #321</h2>
-
-                    <p class="conselho">"Cada segundo é uma nova oportunidade para mudar."
-                    </p>
-
-                    <ul class="divisoria">
-                        <li class="riscao"></li>
-                        <li><i class="fas fa-pause"></i></li>
-                        <li class="riscao"></li>
-                    </ul>
-
-                    <a href="#" rel="noopener noreferrer">
-                        <button class="botao"><i class="fas fa-dice-three"></i></button>
-                    </a>
-                </li>
-
-                <li class="card">
-                    <h2 class="titulo">CONSELHO #496</h2>
-
-                    <p class="conselho">"Um homem criativo é motivado pelo desejo de alcançar, não pelo desejo de vencer
-                        os outros."
-                    </p>
-
-                    <ul class="divisoria">
-                        <li class="riscao"></li>
-                        <li><i class="fas fa-pause"></i></li>
-                        <li class="riscao"></li>
-                    </ul>
-
-                    <a href="#" rel="noopener noreferrer">
-                        <button class="botao"><i class="fas fa-dice-four"></i></button>
-                    </a>
-                </li>
-
-                <li class="card ">
-                    <h2 class="titulo">CONSELHO #562</h2>
-
-                    <p class="conselho">"O êxito é a coleção dos pequenos esforços que tomamos um dia sim e no outro também."
-                    </p>
-
-                    <ul class="divisoria">
-                        <li class="riscao"></li>
-                        <li><i class="fas fa-pause"></i></li>
-                        <li class="riscao"></li>
-                    </ul>
-
-                    <a href="#" rel="noopener noreferrer">
-                        <button class="botao"><i class="fas fa-dice-five"></i></button>
-                    </a>
-                </li>
-
-                <li class="card">
-                    <h2 class="titulo">CONSELHO #648</h2>
-
-                    <p class="conselho">"Os desafios são o que tornam a vida interessante, e superá-los é o que torna a vida significativa."
-                    </p>
-
-                    <ul class="divisoria">
-                        <li class="riscao"></li>
-                        <li><i class="fas fa-pause"></i></li>
-                        <li class="riscao"></li>
-                    </ul>
-
-                    <a href="#" rel="noopener noreferrer">
-                        <button class="botao"><i class="fas fa-dice-six"></i></button>
-                    </a>
-                </li>
+            <ul class="divisoria">
+                <li class="riscao"></li>
+                <li><i class="fas fa-pause"></i></li>
+                <li class="riscao"></li>
             </ul>
-        </div>
+
+            <button class="botao" id="btn"><i class="fas fa-dice-five"></i></button>
+
+        </section>
+
     </main>
 
     <!-- link js -->
-    <script src="./js/index.js"></script>
+    <script src="src/js/index.js"></script>
 </body>
+
 </html>
